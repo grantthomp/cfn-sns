@@ -2,7 +2,7 @@ Parameters:
   TopicName1:
     Type: String
     Description: Name of the first SNS topic
-    Default: MySNSTopic12345
+    Default: MySNSTopic123456
 Resources:
   Topic1:
     Type: AWS::SNS::Topic

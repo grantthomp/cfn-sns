@@ -1,0 +1,18 @@
+Parameters:
+  TopicName1:
+    Type: String
+    Description: Name of the first SNS topic
+    Default: MySNSTopic12345
+Resources:
+  Topic1:
+    Type: AWS::SNS::Topic
+    Properties:
+      DisplayName: !Ref TopicName1
+  Topic2:
+    Type: AWS::SNS::Topic
+    Properties:
+      DisplayName: test
+  Topic2:
+    Type: AWS::SNS::Topic
+    Properties:
+      DisplayName: test123
